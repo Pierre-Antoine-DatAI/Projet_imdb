@@ -6,7 +6,7 @@ import os
 
 # Ajouter le dossier parent pour importer ML.py
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-from app.ML import get_recommendations
+from app.ML_2 import get_recommendations
 
 # Créer l'app FastAPI
 app = FastAPI(title="API Recommandations Films", version="1.0.0")
